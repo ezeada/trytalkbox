@@ -1,0 +1,88 @@
+/* Style the form */
+body {
+  background-color: #1D1A31;
+}
+
+#everything {
+  width: 95%;
+  margin: auto;
+}
+
+#text {
+  color: white;
+  text-align: center;
+  font-weight: 5px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Gabarito';
+}
+
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 50%;
+  margin-top: -1%;
+  margin-bottom: 5%;
+  margin: auto;
+  font-size: 19px;
+}
+
+#form {
+  width: 800px;
+  height: 400px;
+    
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+    
+  margin: auto;
+  text-align:center
+}
+
+#regForm {
+  width: 90%;
+  margin: auto;
+}
+
+input[type=text] {
+    background-color: #312c4e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 10px;
+    width: 42%;
+    line-height: 25px;
+    margin: auto;
+  }
+
+input[type=text]:focus {
+  border: 2px #FB6376;
+}
+
+input[type=text]::-webkit-input-placeholder {
+  font-family: 'Gabarito';
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.454);
+}
+
+#valid {
+  color: #FB6376;
+  font-family: 'Gabarito';
+  margin-top: -5px;
+}
+#notifyme {
+    background-color: #FB6376;
+    border: none;
+    color: white;
+    padding: 16px 19px;
+    width: 44%;
+    text-decoration: none;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Gabarito';
+  }
