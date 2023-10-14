@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Gabarito';
+  font-family: 'Roboto Condensed', sans-serif;
   width: 50%;
   margin-top: -1%;
   margin-bottom: 20%;
@@ -58,12 +58,13 @@ input[type=text]::-webkit-input-placeholder {
     background-color: #FB6376;
     border: none;
     color: white;
-    padding: 16px 19px;
+    padding: 10px 10px;
     width: 65%;
     text-decoration: none;
     margin: 4px 2px;
     border-radius: 5px;
     cursor: pointer;
+    line-height: 28px;
     font-size: 15px;
     font-family: 'Gabarito';
   }
@@ -99,3 +100,29 @@ input[type=text]::-webkit-input-placeholder {
     width: 100%;
     margin: auto;
   }
+
+  @media (max-width: 708px) {
+    #everything {
+      text-align: center !important;
+  }
+    #form {
+      width: 95% !important;
+      float: none !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+    #image{
+       width:100% !important;
+       float: none !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+  }
+    #notifyme {
+      width: 69% !important;
+    }
+
+    #logo {
+      width: 30% !important;
+      height: 30% !important;
+    }
+}
